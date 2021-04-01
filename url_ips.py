@@ -56,8 +56,6 @@ def URL2IP():
            # 一次不成功 显示错误
            st.write( "this URL 2 IP ERROR ")
            # 输入默认数据到列表
-           ip.append("XX")
-           main.append("XX")
            country.append("XX")
            region.append("XX")
            city.append("XX")
