@@ -78,7 +78,6 @@ if st.button("convert!"):
         df = pd.DataFrame({'main':main, 'ip':ip, 'country':country, 'region':region, 'city':city, 'name':name})
         # 表格输出到网页
         st.table(df)
-        st.components.iframe('https://www.google.com/maps/d/embed?mid=1TLAxlpNJ14yBtQwPlCAgdByhsxIPTcLA')
         st.write("complete !")
     except:
         st.write("ERROR !")
