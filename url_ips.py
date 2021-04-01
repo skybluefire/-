@@ -54,14 +54,14 @@ def URL2IP():
 
        except:
            # 一次不成功 显示错误
-           st.write( "this URL 2 IP ERROR ")
+           print( "this URL 2 IP ERROR ")
            # 输入默认数据到列表
            country.append("XX")
            region.append("XX")
            city.append("XX")
            name.append("XX")
 # 用户从文本框输入的数据
-urllist = st.text_area("Your Indented Markdown goes here: ", "")
+urllist = st.text_area("Your urls goes here: ", "")
 # 按钮事件
 if st.button("convert!"):
     try:
